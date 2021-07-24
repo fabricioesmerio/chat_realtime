@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 800px;
+    height: 450px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 3px 11px rgba(0, 0, 0, .21);
+}
+
+.header {
+    display: flex;
+    height: 24px;
+    background-color: #2affff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0px 1px 2px rgb(125 205 255);
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
